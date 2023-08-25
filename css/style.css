@@ -1,0 +1,38 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    position: relative;
+    margin: 0, auto;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #2b2d2e21;
+}
+.headerclass{
+    background-color: white;
+    color: #fff;
+    padding-top: 10px;
+    background: transparent;
+}
+.converthead{
+    color: #070707;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragraph{
+    color: #070707;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.typewriter{
+    color: #db0c0c;
+    font-weight: bold;
+    border-bottom: 1px dotted #db0c0c;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a Temperature Converter Web App">
+    <meta name="keywords" content="Temperature, Converter, Temperature Converter">
+    <meta name="author" content="Arvind Kumar">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Designing Temperature Converter -->
+
+    <body >
+
+        <header style="background-color: aquamarine;" class="card-header shadow">
+            <h1 class="converthead">Temperature Converter</h1>
+            <hr class="light">
+            <p class="paragraph">Convert Celcius OR Forenheit to <span class="typewriter" data-type='["Celcius", "Fahrenheit", "Kelvin", "Reamur", "Rankine", "Romer", "Delisle", "Newton"]'> <span class="wrap"></span></p>
+            <hr class="light">
+        </header>
+        <br>
+        <div class="container">
+
+            <form style="padding: 10px;" class="form-group shadow p-3 mb-5 bg-white rounded">
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°C </span>
+                      </div>
+                    <input type="number" class="form-control" id="celcius" placeholder="Celcius" required="">
+                    <div class="input-group-append">
+                      <button type="button" onclick="convertTemp()" class="btn btn-primary">Convert</button>
+                    </div>
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°F </span>
+                      </div>
+                    <input type="number" id="fahrenheit" placeholder="Fahrenheit" class="form-control" required="">
+                    <div class="input-group-append">
+                      <button type="button" onclick="convertForenheit()" class="btn btn-primary">Convert</button>
+                    </div>
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°K </span>
+                      </div>
+                    <input type="number" id="kelvin" placeholder="Kelvin" class="form-control">
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°Re</span>
+                      </div>
+                    <input type="number" id="reamur" placeholder="Reamur" class="form-control">
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°Ra</span>
+                      </div>
+                    <input type="number" id="rankine" placeholder="Rankine" class="form-control">
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°Rø</span>
+                      </div>
+                    <input type="number" id="romer" placeholder="Romer" class="form-control">
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°De</span>
+                      </div>
+                    <input type="number" id="delisle" placeholder="Delisle" class="form-control">
+                </div><br>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">°N</span>
+                      </div>
+                    <input type="number" id="newton" placeholder="Newton" class="form-control"><br>
+                </div><br>
+
+            </form>
+
+        </div>
+
+        <footer style="background-color: aquamarine;" class="card-footer">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <img style="width: 30px;" src="images/temp.png">
+                        <hr class="light">
+                        <p>999-999-9999</p>
+                        <p></p>
+                        <p>
+                            0 Street
+                            Fatehpur, Uttar Pradesh, 00000
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5>Our hours</h5>
+                        <hr class="light">
+                        <p>All Day Open</p>
+                    </div>
+                    <div class="col-md-4">
+                        <hr class="light">
+                        <h5 class="text-center">About Me</h5>
+                        <hr class="light">
+                        <p class="text-center">Arvind Kumar</p>
+                        <p class="text-center">Fatehpur</p>
+                        <p class="text-center">Uttar Pradesh</p>
+                        <p class="text-center">India</p>
+                    </div>
+                    <div class="col-12">
+                        <hr class="light">
+                        <h5>&copy; Temperature Converter</h5>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+    <!-- JavaScripts -->
+    <script src="js/main.js"></script>
+
+</html>
